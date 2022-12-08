@@ -1,3 +1,9 @@
+/**
+ * @naverwhale/installer
+ * Copyright (c) 2022-present NAVER Corp.
+ * MIT License
+ */
+
 import { Installer } from './types';
 import { installUrls } from './config';
 

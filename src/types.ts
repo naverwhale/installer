@@ -1,3 +1,9 @@
+/**
+ * @naverwhale/installer
+ * Copyright (c) 2022-present NAVER Corp.
+ * MIT License
+ */
+
 export interface Installer {
     _currentPlatform: Platform | undefined;
     getCurrentPlatform: () => Platform;

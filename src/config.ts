@@ -1,3 +1,9 @@
+/**
+ * @naverwhale/installer
+ * Copyright (c) 2022-present NAVER Corp.
+ * MIT License
+ */
+
 import { Platform } from './types';
 
 export const installUrls: Record<Platform, string> = {
