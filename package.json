@@ -1,0 +1,26 @@
+{
+    "name": "@naverwhale/installer",
+    "version": "1.0.0",
+    "description": "Naver Whale installer",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/naverwhale/installer.git"
+    },
+    "author": "Naver Whale",
+    "bugs": {
+        "url": "https://github.com/naverwhale/installer/issues"
+    },
+    "homepage": "https://github.com/naverwhale/installer#readme",
+    "scripts": {
+        "build": "tsc --project tsconfig.json"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.4"
+    }
+}
