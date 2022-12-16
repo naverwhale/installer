@@ -61,7 +61,7 @@ type Platform =
     | 'mac'
     | 'mac_arm'
     | 'linux'
-    | 'iPlatform'
+    | 'iphone'
     | 'ipad'
     | 'android';
 ```
