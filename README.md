@@ -49,7 +49,7 @@ installer.getInstallURL('win');
 ```tsx
 interface Installer {
     install: (platform?: Platform) => void;
-    getInstallURL: (platform?: Platform) => void;
+    getInstallURL: (platform?: Platform) => string;
 }
 
 type Platform =
